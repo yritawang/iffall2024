@@ -1,0 +1,62 @@
+.h1{
+    text-align: center; color: lightgreen;font-family: Georgia, 'Times New Roman', Times, serif; font-size: 40px;
+}
+
+.background {
+    margin: 20px;
+    padding: 20px;
+    background: lightgreen;
+    line-height: 18px;
+    height: 200px;
+    font-size: 18px;
+  }
+
+.box{
+    background-color: darkgreen;
+    width: 800px;
+    border: 100px lightyellow;
+    padding: 10px;
+    margin: 30px;
+}
+
+.peter{
+    color: lightyellow;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.dana{
+    color: lightsalmon;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.picture{
+    width: 500px;
+    height: 400px;
+
+}
+
+.mayor{
+    color: lightgrey;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.ray{
+    color: lightgreen;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.egon{
+    color: lightseagreen;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.winston{
+    color: lightgoldenrodyellow;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+}
