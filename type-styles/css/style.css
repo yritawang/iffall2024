@@ -1,0 +1,85 @@
+html{
+    font-family: "Crimson Text", serif;
+}
+
+body{
+    margin: 5%;
+}
+
+.h1{
+    font-weight: 600;
+    font-size: 40pt;
+
+}
+
+.h2{
+    font-family: Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: 300;
+    line-height: 50%;
+}
+
+.h3{
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18pt;
+    color: darkseagreen;
+}
+
+.small{
+    font-family: Helvetica, sans-serif;
+    font-weight: 40;
+    font-size: 10pt;
+    color: gray;
+}
+
+p{
+    font-family: "Crimson Text", serif;
+    font-size: 26pt;
+    font-weight: 400;
+    line-height: 0.2em;
+}
+
+.bold{
+    font-weight: bold;
+    margin-bottom: 80px;
+}
+
+.italic{
+    font-style: italic;
+    margin-bottom: 80px;
+}
+
+.spaceout{
+    letter-spacing: 0.3em;
+}
+
+.spacein{
+    letter-spacing: -0.08em;
+    margin-bottom: 80px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.linestrikethrough{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+    margin-bottom: 80px;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+
+.capitalize{
+    text-transform: capitalize;
+}
