@@ -1,0 +1,65 @@
+
+.background {
+  background-image: url("https://www.reddit.com/media?url=https%3A%2F%2Fpreview.redd.it%2Fget-him-back-is-the-best-non-single-song-olivia-has-sung-v0-wbpabt9kd4nb1.png%3Fwidth%3D640%26crop%3Dsmart%26auto%3Dwebp%26s%3D9d188fd4c02f148ef2b22f1192d7df60a45fbee2");
+  background-size: 150px;
+  width: 300px;
+  height: 300px;
+  border: solid 2px red;
+}
+
+.h1{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Courier New', monospace;
+    font-size: 40px;
+    margin: 20px;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.h2{
+    text-align: center;
+    color:antiquewhite;
+    font-family: monospace;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+img{
+    max-width: 20%;
+    height: auto;
+    display: flex;
+    
+}
+
+.img1{
+    float: right;
+    display: flex;
+    margin-top: -300px;
+}
+
+.img2{
+    float: left;
+    display: flex;
+    margin-top: -300px;
+}
+
+p{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Courier New', monospace;
+    font-size: 20px;
+    margin: 20px;
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 8px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
