@@ -1,0 +1,144 @@
+body{
+    font-family: "Archivo Narrow", sans-serif;;
+}
+
+header{
+    text-align: center;
+    padding-top: 113px;
+    background-image: url(../images/sands.jpg);
+    padding-bottom: 156px;
+    background-size: cover;
+}
+
+section{
+    margin: 0, auto;
+}
+
+section > div{
+    width: 960px;
+    margin: auto;
+    padding-top: 42px;
+}
+
+h1{
+    font-size: 80px;
+    margin-bottom: 11px;
+    line-height: 1;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 0;
+}
+
+.intro{
+    background-color: blanchedalmond;
+    padding-bottom: 28px;
+}
+
+h3{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin: 0;
+}
+
+.second{
+    background-color: rgb(58, 58, 110);
+    padding-bottom: 35px;
+}
+
+.flexgrid{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexgrid li{
+    display: block;
+    width: 50%;
+    margin-bottom: 8px;
+}
+
+.grid li{
+    width: 100%;
+    margin-bottom: 0;
+}
+
+.flexgrid img{
+    width: 200px;
+    height: 150px;
+}
+
+.grid{
+    padding: 0;
+    display:grid;
+    grid-template-columns: 212px 220px;
+}
+
+.h4{
+    font-size: 20px;
+    color: beige;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.grid p{
+    padding: 0;
+    margin-top: 8px;
+    line-height: 25px;
+    color: burlywood;
+}
+
+.agrid li{
+    width: 100%;
+}
+
+p{
+    padding-top: 14px;
+    font-size: 18px;
+    line-height: 22x;
+}
+
+.float{
+    padding-top: 30px;
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 0px;
+}
+
+.third{
+    margin: 0;
+    background-color: blanchedalmond;
+
+}
+
+.centered{
+    padding-bottom: 102px;
+}
+
+.h5{
+    font-size: 26px;
+    text-align: center;
+    font-weight: 200;
+    margin: auto;
+    padding-top: 30px;
+    padding-left: 125px;
+    padding-right: 125px;
+    line-height: 36px;
+}
+
+.footer{
+    background-color: white;
+}
+
+.footer p{
+    font-size: 18px;
+    padding-top: 22px;
+    padding-left: 94px;
+}
+
