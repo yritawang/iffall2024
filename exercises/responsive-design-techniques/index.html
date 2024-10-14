@@ -4,6 +4,7 @@
 <head>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<title>Basic Responsive Design Techniques</title>
+    <link rel="stylesheet" href="css/styles.css">
 	<link href="https://wudesign.me/resources/responsive-design-techniques/styles.css" rel="stylesheet">
 </head>
 
@@ -28,7 +29,7 @@
 
 	<section id="fixed-size-grid-items">
 		<p>Turn the following list into a grid of boxes that wrap horizontally (side-by-side until they run out of room and wrap to the next line). Make each <code>&lt;aside&gt;</code> <code>170px</code> wide, with a <code>10px</code> margin. Set the <code>font-size</code> for the boxes to be <code>0.8rem</code>. Be sure to remove the bullets associated with the <code>&lt;li&gt;</code> tags, and remove the default <code>padding-left</code> on the <code>&lt;ul&gt;</code>.</p>
-		<ul>
+		<ul class="flex">
 			<li>
 				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
 			</li>
@@ -47,7 +48,7 @@
 	<section id="stretchable-grid-items">
 		<p>As above, make a grid of boxes that wrap horizontally. This time, give each <code>&lt;li&gt;</code> a width of 100%. When the viewport width is greater than 480px, make each <code>&lt;li&gt;</code> be <code>50%</code> wide. If the viewport is greater than 640px, make each <code>&lt;li&gt;</code> be <code>25%</code> wide. The grid should be 1-across at small widths, 2-across at medium widths, and 4-across and large widths. Don't set a width on the <code>&lt;aside&gt;</code> elements, but be sure they have a <code>10px</code> margin.</p>
 		<p>Now, set the <code>&lt;ul&gt;</code> to have a <code>margin</code> of <code>-10px</code> left and right, <code>1rem</code> top and bottom. What happens?</p>
-		<ul>
+		<ul class="twogrid">
 			<li>
 				<aside>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</aside>
 			</li>
