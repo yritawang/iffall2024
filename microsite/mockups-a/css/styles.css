@@ -1,0 +1,12 @@
+.desktop{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.mobile{
+    display: block;
+    width: 20%;
+    margin: auto;
+}
