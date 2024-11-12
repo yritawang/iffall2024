@@ -1,0 +1,229 @@
+
+.ranchers-regular {
+    font-family: "Ranchers", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.coming-soon-regular {
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-color: #1C1C30;
+    padding-left: 180px;
+    padding-right:180px;
+    margin: 0;
+}
+
+.topnav{
+    padding-top: 10px;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;
+    display: flex;
+}
+
+.topnav a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.firstnav{
+    padding-left: 0px;
+    padding-right: 0px;
+    color: whitesmoke;
+}
+
+.sidenav{
+    color: #29819F;
+    padding-right: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.home{
+    font-family: "Ranchers", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+}.characters{
+    font-family: "Ranchers", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #29819F;
+}
+
+.production{
+    font-family: "Ranchers", sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    font-style: normal;
+    color: #29819F;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+.maintitle{
+    margin: 0;
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+hr {
+    border: 0;
+    height: 1px; 
+    background-color: #29819F;
+    margin: 20px 0;
+}
+
+p{
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #D8D8D8;
+    margin: 0;
+    padding: 0;
+}
+
+.h2{
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #D8D8D8;
+    margin-bottom: 0;
+}
+
+.h1{
+    font-family: "Ranchers", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FAD693;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.writing{
+    padding-left: 0;
+    padding-right: 50px;
+}
+
+.emotion{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+.emotionpics{
+    width: 184px;
+    height: 184px;
+}
+
+.smalltext{
+    font-family: "Coming Soon", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 10px;
+    color: #D8D8D8;
+    margin: 0;
+    padding: 0;
+}
+
+.subtitle{
+    font-family: "Ranchers", sans-serif;
+    font-size: 62px;
+    font-weight: 400;
+    font-style: normal;
+    color: #D8D8D8;
+    margin-top: 16px;
+    margin-bottom: 16pxm;
+}
+
+.text{
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.productionimage{
+    width: 50%;
+    height: 50%;
+}
+
+#slideshow {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 20px;
+    align-items: center;
+}
+
+.slide {
+    float: left;
+    height: 500px;
+    width: 1032px;
+}
+
+.slideimage{
+    width: 100%;
+    object-fit: cover;
+}
+
+.slide-wrapper {
+    width: calc(1032px * 6);
+    animation: slide 15s infinite;
+}
+
+.footer{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+@keyframes slide {
+    0%, 100% {
+        margin-left: 0px;
+    }
+    16.66% {
+        margin-left: calc(-1032px * 1);
+    }
+    33.33% {
+        margin-left: calc(-1032px * 2);
+    }
+    50% {
+        margin-left: calc(-1032px * 3);
+    }
+    66.66% {
+        margin-left: calc(-1032px * 4);
+    }
+    83.33% {
+        margin-left: calc(-1032px * 5);
+    }
+}
+
+@media (max-width: 768px) {
+    #slideshow {
+        width: 100%;
+        height: auto;
+    }
+    .slide {
+        min-width: 100%;
+    }
+}
