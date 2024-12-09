@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-color: seashell;
+}
+
+h1{
+    font-family: "sigurd", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    text-align: center;
+    font-size:46px;
+    color: midnightblue;
+}
+
+h2{
+    font-family: "sigurd", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    font-size:30px;
+    color: steelblue;
+}
+
+h3{
+    font-family: "halyard-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: midnightblue;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+p{
+    font-family: "halyard-text", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: steelblue;
+    max-width: 400px;
+    text-align: center;
+}
+
+footer{
+    font-family: "halyard-text", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    color: steelblue;
+    text-align: center;
+    margin-top: 4rem; 
+}
+
+.siteimg{
+    width: 100%;
+    height: auto;
+    max-width: 420px;
+    border-radius: 18px;
+    border-style: dashed;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+    padding: 0;
+    margin: 0 auto;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: midnightblue;
+}
+
+.siteimg:hover{
+    transform: scale(1.05);
+}
+
+@media screen and (max-width: 850px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2{
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 10px; 
+    }
+}
