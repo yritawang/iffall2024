@@ -1,0 +1,248 @@
+.button_container a{
+    text-decoration: none;
+}
+
+a#btn_hasbro{
+    display: inline-block;
+    height: 80px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 60px;
+    padding: 10px 30px 60px 30px;
+    border-radius: 20px;
+    color: #0077B5;
+    text-decoration: underline;
+    font-size: 36px;
+    font-family: "Pacifico", cursive;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a#btn_hasbro:hover{
+    background-color: #0095DA;
+    color: white;
+    text-decoration: underline;
+}
+
+a#btn_us{
+    display: inline-block;
+    margin-top: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #666666;
+    height: 110px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+a#btn_us:hover {
+    background-color: #343132;
+    color: #FFCB05;
+}
+
+a#btn_apple{
+    display: inline-block;
+    margin-top: 70px;
+    font-family: Helvetica, sans-serif;
+    font-size: 100px;
+    color: #979797;
+    background-color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 10px 20px;
+    outline: none;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: color 0.4s;
+}
+
+a#btn_apple:hover{
+    color: white;
+    animation: flashColors 1s infinite;
+}
+
+@keyframes flashColors {
+    0% {
+      background-color: #5EBD3E;
+    }
+    20% {
+      background-color: #FFB900;
+    }
+    40% {
+      background-color: #F78200;
+    }
+    60% {
+      background-color: #E23838;
+    }
+    80% {
+      background-color: #973999;
+    }
+    100% {
+        background-color: #009CDF;
+      }
+  }
+
+a#btn_lyft{
+    display: inline-block;
+    margin-top: 90px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    background-color: #11111F;
+    color: #FF00BF;
+    padding: 10px 20px;
+    border: 2px solid #11111F;
+    transition: all .8s;
+}
+
+a#btn_lyft:hover{
+    border-radius: 100px;
+    color: #11111F;
+    background-color: #FF00BF;
+    border: 2px solid #FF00BF;
+}
+
+a#btn_tny{
+    display: inline-block;
+    margin-top: 90px;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-weight: light;
+    font-size: 24px;
+    color: white; 
+    background-color: #11111F; 
+    padding: 15px 30px;
+    border: 2px solid #11111F;
+    text-align: center;
+    border-radius: 5px; 
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a#btn_tny:hover {
+    color: #11111F; 
+    background-color: white;
+    border: 2px solid white;
+    transform: scale(1.1); 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+a#btn_cocacola{
+    display: inline-block;
+    margin-top: 90px;
+    font-family: "Luxurious Script", cursive;
+    font-size: 50px;
+    color: #5E071A;
+    padding: 15px 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+a#btn_cocacola:hover {
+    animation: shake 0.3s ease-in-out; 
+    color:crimson;}
+
+@keyframes shake {
+    0% {transform: translateX(0); }
+    25% {transform: translateX(-5px);}
+    50% {transform: translateX(10px);}
+    75% {transform: translateX(-15px);}
+    100% {transform: translateX(0); }
+}
+
+a#btn_npr{
+    display: inline-block;
+    margin-top: 80px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    color: black;
+    letter-spacing: 2px;
+    text-align: center; 
+    transition: all 0.3s ease;
+    border: 3px solid transparent; 
+}
+
+a#btn_npr:hover {
+    color: white;
+    transform: scale(1.1); 
+    background: linear-gradient(90deg, #D62021, #000000, #237BBD);
+    padding: 10px 38px;
+    letter-spacing: 5px;
+}
+
+a#btn_bissinger{
+    display: inline-block;
+    margin-top: 50px;
+    font-family: "Astloch", system-ui;
+    color: goldenrod;
+    font-size: 60px;
+    padding: 15px 15px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+a#btn_bissinger::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 0; 
+    height: 2px; 
+    background-color: goldenrod;
+    transition: width 0.3s ease; 
+    left: 50%;
+    bottom: 10px; 
+    transform: translateX(-50%);
+}
+
+a#btn_bissinger:hover::after {
+    width: 80%;
+}
+
+a#btn_bissinger:hover{
+    color: goldenrod; 
+    background-color: white; 
+}
+
+a#btn_fitbit{
+    display: inline-block;
+    margin-top: 50px;
+    font-family: "Open Sans", sans-serif;
+    color: #002A3A;
+    font-size: 60px;
+    padding: 15px 15px;
+    position: relative; 
+    transition: all 0.2s ease;
+}
+
+a#btn_fitbit:hover{
+    color: #02A3A1;
+    transform: translateY(-20px);
+}
+
+a#btn_pastaria{
+    display: inline-block;
+    margin-top: 70px;
+    font-family: "Teko", sans-serif;
+    height: 62px;
+    font-weight: 300;
+    font-size: 50px;
+    color: #054047;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 20px; 
+    transition: all 0.3s ease;
+}
+
+a#btn_pastaria:hover{
+    color: #F04924;
+    background-color: #002A3A;
+    transform: scale(1.3);
+}
